@@ -32,7 +32,7 @@ CREATE TABLE public."People" (
 	"updatedAt" date NULL DEFAULT now()
 );
 
-INSERT INTO public."People" (id,"firstName","lastName","createdAt","updatedAt") VALUES
+INSERT INTO public."People" ("id","firstName","lastName","createdAt","updatedAt") VALUES
 	 ('1','PAUL','VELASCO','2022-11-12','2022-11-12'),
 	 ('2','JHONY','LLANO','2022-11-12','2022-11-12');
 ```
